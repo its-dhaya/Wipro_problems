@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.Scanner;
+class Arguments3{
+public static void main(String[] args){
+Scanner scan  = new Scanner(System.in);
+Integer num1= scan.nextLine();
+Integer num2 = scan.nextLine();
+Integer sum = num1+num2;
+System.out.println("The sum of " + num1 + "and" + num2 "is" + sum);
+}
+}
